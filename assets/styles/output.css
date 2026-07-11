@@ -331,6 +331,9 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
@@ -765,6 +768,9 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
@@ -923,6 +929,9 @@
   .text-\[\#\] {
     color: #;
   }
+  .text-\[\#cfcfcf\] {
+    color: #cfcfcf;
+  }
   .text-\[\#f1f2f3\] {
     color: #f1f2f3;
   }
@@ -931,6 +940,9 @@
   }
   .text-\[\#fe9b45\] {
     color: #fe9b45;
+  }
+  .text-\[9e9e9e\] {
+    color: 9e9e9e;
   }
   .text-black {
     color: var(--color-black);
