@@ -14,8 +14,7 @@
     <div class="main w-full">
 
         <section class="banner bg-[#f1f2f3] py-2">
-            <div
-                class="w-full md:max-w-4xl 2xl:max-w-[1800px] mx-auto flex flex-col md:flex-row justify-between text-xs text-[#82817d]">
+            <div class="mx-auto flex flex-col md:flex-row justify-between text-xs text-[#82817d] md:mx-2 lg:mx-[120px]">
                 <div class="text-center">
                     <span class="">Welcome to Leader in Industrial Solution since 2005</span>
                 </div>
@@ -25,8 +24,7 @@
             </div>
         </section>
 
-        <header
-            class="hidden lg:flex w-full md:max-w-4xl 2xl:max-w-[1800px] mx-auto flex flex-row justify-between py-4 2xl:py-8">
+        <header class="hidden lg:flex mx-[20px] md:mx-[120px] flex flex-row justify-between py-4 2xl:py-8">
             <div class="logo md:max-h-80 max-w-80">
                 <img class="w-full" src="./assets/images/Logo_Header.png">
             </div>
@@ -79,33 +77,32 @@
         </header>
 
         <nav class="hidden lg:block bg-[#0f263a] sticky top-0">
-            <div
-                class="w-full mx-auto md:max-w-4xl 2xl:max-w-[1800px] flex lg:flex-row items-center justify-between 2xl:py-4">
-                <div class="links flex flex-row justify-between align-center text-xs">
+            <div class="mx-[20px] md:mx-[120px] flex lg:flex-row items-center justify-between 2xl:py-4">
+                <div class="links flex flex-row justify-between items-center text-xs">
                     <div class="">
                         <a href="./index.html" class="text-white font-semibold">HOME</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a href="./aboutUs.html" class="text-white font-semibold">ABOUT US</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a class="text-white font-semibold">SERVICES</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a class="text-white font-semibold">PROJECTS</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a class="text-white font-semibold">NEWS</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a class="text-white font-semibold">SHOP</a>
                     </div>
-                    <div class="w-px h-4 bg-gray-300 mx-4"></div>
+                    <div class="w-px h-4 bg-gray-300 mx-4 lg:mx-2"></div>
                     <div class="">
                         <a href="./contactUs.html" class="text-[#fab90a] font-semibold">CONTACT US</a>
                     </div>
@@ -127,10 +124,10 @@
 
         <header class="lg:hidden bg-white shadow-sm sticky top-0 z-50">
             <nav
-                class="w-full h-auto  px-2 py-4 bg-white bg-opacity-10 backdrop-blur-md shadow flex items-center justify-between">
-                <!-- logo -->
+                class="w-full h-auto px-2 py-4 bg-white bg-opacity-10 backdrop-blur-md shadow flex items-center justify-between">
+
                 <img src="./assets/images/Logo_Header.png" alt="Logo" class="h-12 w-auto">
-                <!-- Toggle Button -->
+
                 <button id="toggleButton" class=" text-black rounded">
                     <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="w-9 h-9" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
@@ -197,119 +194,173 @@
             </div>
         </header>
 
-        <section class="bg-[#f5f4f4] pt-4 px-3 sm:px-2 lg:px-0 pb-8 md:pb-4">
-            <div class="md:max-w-4xl 2xl:max-w-[1800px] mx-auto flex flex-col">
-                <div class="mb-4">
-                    <h1 class="text-2xl text-[#43668c] font-bold my-1">
-                        Get In Touch
+        <section class="banner-about relative min-h-[15vh] md:min-h-[30vh] flex items-center">
+            <div class="mx-[20px] md:mx-[120px] flex flex-col py-[80px]">
+                <div class="text-white text-start md:max-w-4xl mx-auto">
+                    <h1
+                        class="font-bold text-white leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
+                        Contact Us
                     </h1>
-                    <h2 class="text-xl font-semibold my-1">
-                        Have a project in mind or need expert engineering advice? 
-                     </h2>
-                    <p class="text-lg font-semibold text-justify">
-                        Our team is ready to help you find the right solution — reach out today.
-                    </p>
-                </div>
-
-                <div class="flex flex-col md:flex-row align-start justify-between my-4">
-                    <div class="col">
-                        <div class="flex flex-col align-start my-4">
-                            <p class="font-bold text-lg flex flex-row items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fab90a" class="bi bi-geo-alt-fill me-2" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                  </svg>
-                                Our Location
-                            </p>
-                            <p class="text-md">
-                                Lorance 542B, Tailstoi Town 5248 MT, Worldwide Country
-                            </p>
-                        </div>
-                    
-                        <div class="flex flex-col align-start my-4">
-                            <p class="font-bold text-lg flex flex-row items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fab90a" class="bi bi-telephone-fill me-2" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                                  </svg>
-                                  Call Us
-                            </p>
-                            <p class="text-md">
-                                01865 524 8503                        
-                            </p>
-                        </div>
-                    
-                        <div class="flex flex-col align-start my-4">
-                            <p class="font-bold text-lg flex flex-row items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fab90a" class="bi bi-clock-fill me-2" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-                                  </svg>
-                                  Work Hours
-                            </p>
-                            
-                            <p class="text-md">
-                                Mon – Sat : 9am to 6pm
-                            </p>
-                        </div>
-
-                        <div class="flex flex-col align-start my-4">
-                            <p class="font-bold text-lg flex flex-row items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fab90a" class="bi bi-envelope-fill me-2" viewBox="0 0 16 16">
-                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                                  </svg>
-                                  Email 
-                            </p>
-                            
-                            <p class="text-md">
-                                Info@Woodworkshop.Com
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25898.763452542793!2d51.38801677431642!3d35.766890200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e070029f483c5%3A0xfa30b783ca63334a!2z2LTYsdqp2Kog2LHYp9mH2KjYsQ!5e0!3m2!1sen!2s!4v1783505068437!5m2!1sen!2s" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>                       
-                    </div>
                 </div>
             </div>
         </section>
 
-
-        <section class="contact bg-[#f5f4f4] pt-4 px-3 sm:px-2 lg:px-0 pb-8 md:pb-4">
-            <div class="md:max-w-4xl 2xl:max-w-[1800px] mx-auto flex flex-col pb-4 md:pt-16">
+        <section class="bg-[#f5f4f4]">
+            <div class="mx-[20px] md:mx-[120px] flex flex-col py-[80px]">
                 <div class="info">
                     <p
-                        class="section-desc text-lg mx-auto pb-4">
-                        Whether you're planning a new project or need expert guidance on an existing one, our team of engineers is ready to listen. Reach out today and let's discuss how we can help bring your vision to life.
+                        class="section-header text-center text-xs sm:text-sm md:text-md 2xl:text-2xl text-[#fe9b45] font-bold">
+                        ____ STAY CONNECTED ____
+                    </p>
+                    <h1 class="section-title text-center text-3xl md:text-4xl font-extrabold text-[#0f263a] mt-[20px]">
+                        Stay Connected
+                    </h1>
+                    <p
+                        class="section-desc text-justify sm:text-sm md:text-md 2xl:text-2xl mx-auto lg:w-3xl 2xl:w-7xl text-[#595967] mt-[20px] lg:mx-0">
+                        You can talk to our online representative at any time. Please use our Live Chat System on our
+                        website or
+                        Fill up below instant messaging programs.
+                    </p>
+                    <p
+                        class="section-desc text-justify font-semibold sm:text-sm md:text-md 2xl:text-2xl mx-auto lg:w-3xl 2xl:w-7xl text-[#595967] mt-[20px] lg:mx-0">
+                        Please be patient, We will get back to you.
+                        Our 24/7 Support,
+                        <span class="text-red-800">
+                            General Inquireies Phone: + 0987
+                            654 321
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="mx-[20px] md:mx-[120px] flex flex-col">
+                <div class="info">
+                    <p
+                        class="section-header text-center text-xs sm:text-sm md:text-md 2xl:text-2xl text-[#fe9b45] font-bold">
+                        ____ CONTACT INFO ____
+                    </p>
+                    <h1
+                        class="section-title text-center text-3xl md:text-4xl font-extrabold text-[#0f263a] mt-[20px] lg:mx-0">
+                        Contact Info
+                    </h1>
+                    <div
+                        class="section-desc lg:w-3xl 2xl:w-7xl text-justify sm:text-sm md:text-md 2xl:text-2xl mx-auto text-[#595967] mt-[20px] my-4 lg:mx-0">
+                        <p class="font-bold text-md flex flex-row items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fe9b45"
+                                class="bi bi-telephone-fill me-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            Call Us
+                        </p>
+                        <p class="text-base">
+                            01865 524 8503
+                        </p>
+                    </div>
+                    <div
+                        class="section-desc lg:w-3xl 2xl:w-7xl text-justify sm:text-sm md:text-md 2xl:text-2xl mx-auto text-[#595967] mt-[20px] my-4 lg:mx-0">
+                        <p class="font-bold text-md flex flex-row items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fe9b45"
+                                class="bi bi-clock-fill me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                            </svg>
+                            Work Hours
+                        </p>
+
+                        <p class="text-base">
+                            Mon – Sat : 9am to 6pm
+                        </p>
+                    </div>
+                    <div
+                        class="section-desc lg:w-3xl 2xl:w-7xl text-justify sm:text-sm md:text-md 2xl:text-2xl mx-auto text-[#595967] mt-[20px] my-4 lg:mx-0">
+                        <p class="font-bold text-md flex flex-row items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fe9b45"
+                                class="bi bi-envelope-fill me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                            </svg>
+                            Email
+                        </p>
+
+                        <p class="text-base">
+                            Info@Woodworkshop.Com
+                        </p>
+                    </div>
+                    <div
+                        class="section-desc lg:w-3xl 2xl:w-7xl text-justify sm:text-sm md:text-md 2xl:text-2xl mx-auto text-[#595967] mt-[20px] my-4 lg:mx-0">
+                        <p class="font-bold text-md flex flex-row items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fe9b45"
+                                class="bi bi-geo-alt-fill me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                            </svg>
+                            Our Location
+                        </p>
+                        <p class="text-base">
+                            Lorance 542B, Tailstoi Town 5248 MT, Worldwide Country
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="info py-8">
+                    <div class="w-full min-h-[220px]">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25898.763452542793!2d51.38801677431642!3d35.766890200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e070029f483c5%3A0xfa30b783ca63334a!2z2LTYsdqp2Kog2LHYp9mH2KjYsQ!5e0!3m2!1sen!2s!4v1783505068437!5m2!1sen!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="banner-contact bg-[#43668c]">
+            <div
+                class="flex flex-col md:flex-row items-center justify-between mx-[20px] lg:mx-[120px] py-[80px] md:px-0">
+                <span class="text-2xl text-center font-bold text-[#f1f2f3] mb-4">
+                    Looking an adequate solution for your company?
+                </span>
+                <a href="./contactUs.html"
+                    class="bg-[#0f263a] text-white text-xs text-center sm:text-sm md:text-md 2xl:text-2xl py-3 px-5 rounded-sm">
+                    CONTACT US
+                </a>
+            </div>
+        </section>
+
+        <section class="contact bg-[#f5f4f4] pt-4 px-3 sm:px-2 lg:px-0 pb-8 md:pb-4">
+            <div class="mx-[20px] md:mx-[120px] flex flex-col py-[80px]">
+                <div class="info">
+                    <p class="section-desc text-md text-justify mx-auto pb-4">
+                        Whether you're planning a new project or need expert guidance on an existing one, our team of
+                        engineers is ready to listen. Reach out today and let's discuss how we can help bring your
+                        vision to life.
                     </p>
                 </div>
 
-                <form class="w-full mx-auto rounded-sm border-8 border-gray-100 space-y-6">
+                <form class="w-full mx-auto rounded-sm space-y-6">
 
                     <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
                         <div>
                             <input id="name" type="text" placeholder="Your Name"
-                                class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
+                                class="w-full bg-white rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
                         </div>
 
                         <div>
                             <input id="email" type="email" placeholder="Your Email"
-                                class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
+                                class="w-full bg-white rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
                         </div>
                     </div>
 
                     <div>
                         <input id="subject" type="text" placeholder="Your Phone Number"
-                            class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
+                            class="w-full bg-white rounded-lg border border-gray-300 px-4 py-3 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition">
                     </div>
 
                     <div>
                         <select id="service" name="service" required
-                            class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none">
+                            class="w-full rounded-lg bg-white border border-gray-300 bg-white px-4 py-3 text-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none">
                             <option value="" selected disabled hidden>
                                 Select one...
                             </option>
@@ -332,11 +383,10 @@
 
 
 
-
     <section class="footer text-[#7b838e] py-4">
-        <div class="flex flex-col md:max-w-4xl 2xl:max-w-[1800px] mx-auto">
+        <div class="flex flex-col md:px-2 mx-auto lg:mx-[120px] lg:px-0">
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6 px-6 md:px-0">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6 px-4 md:px-2">
                 <div>
                     <img src="./assets/images/Logo_footer.png">
 
@@ -404,7 +454,8 @@
                     </h3>
 
                     <ul class="space-y-2 text-xs footer-links">
-                        <li><a href="./aboutUs.html" class="text-[#7b838e] cursor-pointer hover:text-[#c1c9d4]">About Us</a></li>
+                        <li><a href="./aboutUs.html" class="text-[#7b838e] cursor-pointer hover:text-[#c1c9d4]">About
+                                Us</a></li>
                         <li><a class="text-[#7b838e]">News</a></li>
                         <li><a class="text-[#7b838e]">Testimonials</a></li>
                         <li><a class="text-[#7b838e]">Request A Quote</a></li>
@@ -455,33 +506,34 @@
                 </div>
             </div>
 
-            <div class="flex flex-col md:flex-row align-center justify-between pt-8 px-6 md:px-0">
+            <div class="flex flex-col md:flex-row align-center justify-between pt-8 px-4 md:px-2">
                 <span class="text-xs">
                     Copyright © 2026 Industrial WP Theme demo. All Rights Reserved
                 </span>
                 <span class="text-xs">
-                    Developed by <a class="font-semibold hover:text-white" target="_blank" href="https://raahbar.net/">Raahbar</a>
+                    Developed by <a class="font-semibold hover:text-white" target="_blank"
+                        href="https://raahbar.net/">Raahbar</a>
                 </span>
             </div>
         </div>
     </section>
 
-</div>
+    </div>
 
 
-<script>
-    const toggleButton = document.getElementById('toggleButton');
-    const cardContainer = document.getElementById('cardContainer');
-    const closeButton = document.getElementById('closeButton');
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const cardContainer = document.getElementById('cardContainer');
+        const closeButton = document.getElementById('closeButton');
 
-    toggleButton.addEventListener('click', () => {
-        cardContainer.style.width = cardContainer.style.width === '350px' ? '0' : '350px';
-    });
+        toggleButton.addEventListener('click', () => {
+            cardContainer.style.width = cardContainer.style.width === '350px' ? '0' : '350px';
+        });
 
-    closeButton.addEventListener('click', () => {
-        cardContainer.style.width = '0';
-    });
-</script>
+        closeButton.addEventListener('click', () => {
+            cardContainer.style.width = '0';
+        });
+    </script>
 </body>
 
 </html>
