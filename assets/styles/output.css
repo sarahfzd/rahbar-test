@@ -665,12 +665,28 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-l-1 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
   .border-dashed {
     --tw-border-style: dashed;
     border-style: dashed;
   }
+  .border-\[\#\#4f5258\] {
+    border-color: ##4f5258;
+  }
   .border-\[\#\#f1f1f1\] {
     border-color: ##f1f1f1;
+  }
+  .border-\[\#4f5258\] {
+    border-color: #4f5258;
+  }
+  .border-\[\#9a9da3\] {
+    border-color: #9a9da3;
+  }
+  .border-\[\#72757c87\] {
+    border-color: #72757c87;
   }
   .border-\[\#\] {
     border-color: #;
